@@ -11,6 +11,9 @@
 #keys
 mykey*
 
+#output files
+output.terraform
+
 # Crash log files
 crash.log
 
