@@ -5,6 +5,12 @@
 *.tfstate
 *.tfstate.*
 
+# .tfvars files
+*.tfvars
+
+#keys
+mykey*
+
 # Crash log files
 crash.log
 
