@@ -15,3 +15,7 @@ variable AMIS {
     ap-east-1 = "ami-f19cdf80"
   }
 }
+
+variable INSTANCE_DEVICE_NAME{
+  default = "/dev/xvdh"
+}

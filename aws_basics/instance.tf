@@ -8,6 +8,8 @@ resource "aws_instance" "instance" {
 
   key_name = aws_key_pair.mykey.key_name
 
+  user_data = data.template_cloudinit_config.cloudinit-example.rendered
+
 }
 
 resource "aws_ebs_volume" "new_volume_1" {
